@@ -1,0 +1,23 @@
+{
+	"name": "swcaller",
+	"version": "0.0.1",
+	"description": "call a function in service worker",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/thanhpk/swcaller.git"
+	},
+	"author": "Thanh Pham Kieu",
+	"license": "MIT",
+	"homepage": "https://github.com/thanhpk/swcaller#readme",
+	"devDependencies": {
+		"eslint": "^5.15.2",
+		"uglifyjs-webpack-plugin": "^2.1.2",
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0"
+	}
+}

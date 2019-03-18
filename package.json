@@ -1,6 +1,6 @@
 {
 	"name": "swcaller",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "call a function in service worker",
 	"main": "index.js",
 	"scripts": {

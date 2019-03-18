@@ -22,11 +22,7 @@ function call (data, cb) {
 		var replied = false
 
 		// make sure service worker is available
-		if (
-			navigator ||
-			!navigator.serviceWorker ||
-			!navigator.serviceWorker.controller
-		) {
+		if (!navigator.serviceWorker || !navigator.serviceWorker.controller) {
 			cb(new Error('service worker not available'))
 			rj(new Error('service worker not available'))
 			replied = true
